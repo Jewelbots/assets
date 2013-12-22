@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+}
+
+html, body {
+	background-color: #383838; 
+  height: 100%;
+}
+
+.main-wrapper{
+	color: #FFFFFF;
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -205px; 
+}
+
+.lander-1 {
+	margin-top: 40px;
+	display: block;
+    height:100%;
+	text-align: center;
+	/*background-color: #ccc;*/
+}
+
+
+.lander-1 img {
+	max-width: 100%;
+}
+
+.main:after {
+  content: "";
+  display: block;
+}
+
+.footer, .main-wrapper:after {
+  /* .push must be the same height as footer */
+  height: 205px; 
+}
+
+/*.header, .footer {
+	background-color:yellow;;
+}*/
+
+.footer img {
+	float: right;
+}
+
+/* Second section styles */
+.lander-2 {
+  display: none;
+}
+
+/* Override  mailchimp styles */
+
+.button {
+  margin-top: 10px;
+}
+
+.indicates-required {
+  display: none;
+}
