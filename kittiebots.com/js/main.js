@@ -1,10 +1,10 @@
 $(document).ready(function() {
-
-	$(window).scroll(function() {
-
-		if($(this).scrollTop() > 0 ) {
-			$('.sub-headline').toggle();
-			$('.lander-2').toggle();
-		} 
-	});  
+   $('#learn').click(function(){
+    $('.intro').fadeOut(function(){
+    $('.lander-2').toggle();});
+   })
+   $('#mail').click(function(){
+    $('form').submit();
+   })
+	
 });
